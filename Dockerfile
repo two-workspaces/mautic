@@ -1,6 +1,6 @@
 # Mautic's web server, cron and queue workers in one container (see
 # railway-entrypoint.sh for why).
-FROM mautic/mautic:7.2.1-20260923-apache
+FROM mautic/mautic:7.2.2-20261026-apache
 
 # HTTPS email API transports (SES, Brevo, Mailgun, Mailjet, Postmark, Resend,
 # SendGrid). The stock image ships only SMTP, which Railway blocks below Pro.
